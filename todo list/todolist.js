@@ -10,7 +10,7 @@ function addTodo(event){
     const todoDiv = document.createElement("div");
     todoDiv.classList.add("todo");
     const newtodo = document.createElement("li");
-    newtodo.innerText="hieyaa";
+    newtodo.innerText=todoInput.value;
     newtodo.classList.add("todo-item");
     todoDiv.appendChild(newtodo);
     //completed task button
@@ -21,7 +21,11 @@ function addTodo(event){
     //Delete task button
     const deletetask = document.createElement('button');
     deletetask.innerHTML='<i class="fas fa-trash"></i>';
-    deletetask.classList.add("complete-btn");
+    deletetask.classList.add("trash-btn");
     todoDiv.appendChild(deletetask);
+    //append the new todo item to Div
     todoList.appendChild(todoDiv);
+    //Clearing Todo Input
+    todoInput.value=" ";
+
 }
