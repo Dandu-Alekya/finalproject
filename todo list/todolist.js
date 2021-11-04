@@ -40,6 +40,10 @@ function checkordeletetask(e){
     //to delete the list item
     if(item.classList[0]==="trash-btn"){
         const currenttodo = item.parentElement;
-        currenttodo.remove();
+        currenttodo.classList.add("deletion");
+        //animation for deletion
+        currenttodo.addEventListener('transitionend',function(){
+            currenttodo.remove();
+        });
     }
 }
