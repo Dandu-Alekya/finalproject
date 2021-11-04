@@ -8,3 +8,6 @@ Features i want to include:
 4. gratitude section 
 5. workout section
 6. study section
+
+### Image creidts: 
+1. Todo List - background: https://pixabay.com/illustrations/mountain-sun-rise-nature-morning-5145156/
