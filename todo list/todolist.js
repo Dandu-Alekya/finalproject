@@ -44,6 +44,7 @@ function checkordeletetask(e){
     if(item.classList[0]==="trash-btn"){
         const currenttodo = item.parentElement;
         currenttodo.classList.add("deletion");
+        removeLocalTodos(currenttodo);
         //animation for deletion
         currenttodo.addEventListener('transitionend',function(){
             currenttodo.remove();
@@ -123,4 +124,7 @@ function getTodo(){
 function removeLocalTodos(todo){
     let todos;
     todos=checklocal(todos);
+    const todoIndex = todo.children[0].innerText;
+    todos.splice(todos.indexOf(todoIndex,1));
+    localStorage.setItem("todos",JSON.stringify(todos));
 }
