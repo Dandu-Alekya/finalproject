@@ -5,8 +5,10 @@
 }
 
 body{
-    background-image:linear-gradient(120deg,#e2c35d,#d88771);
-    color: white;
+    /*background-image:linear-gradient(120deg,#e2c35d,#d88771);*/
+    background-image: url(https://cdn.pixabay.com/photo/2020/05/08/10/54/mountain-5145156_1280.jpg);
+    background-size:auto;
+    color:#152238;
     font-family: 'Nunito', sans-serif;
     min-height: 100vh;
 }
@@ -30,14 +32,14 @@ form input,form button{
 }
 
 form button{
-    color:#d88771;
+    color:#152238;
     background: white;
     cursor:pointer;
     transition: all 0.3s ease;
 }
 
 form button:hover{
-    background: #d88771;
+    background: #152238;
     color: white;
 }
 
@@ -65,10 +67,11 @@ form button:hover{
 
 .todo li{
     flex:1;
+    text-align: center;
 }
 
 .complete-btn,.trash-btn{
-    background-color: #d88771;
+    background-color: #152238;
     color:white;
     border: none;
     padding: 1rem;
@@ -76,7 +79,16 @@ form button:hover{
     font-size: 1rem;
 }
 .complete-btn{
-    background-color: green;
+    background-color: #3e63a5;
+}
+
+.trash-btn:hover{
+    color: #152238;
+    background:  white;
+}
+.complete-btn:hover{
+    color: #3e63a5;
+    background: white;
 }
 
 .todo-item{
@@ -109,7 +121,7 @@ select{
 }
 
 select{
-    color: #d88771;
+    color: #152238;
     width: 10rem;
     cursor: pointer;
     padding: 1rem;
@@ -118,7 +130,7 @@ select{
 .select::after{
     content:"\25BC";
     position: absolute;
-    background: #d88771;
+    background:#152238;
     top:0;
     right:0;
     padding: 1rem;
@@ -128,6 +140,6 @@ select{
 
 .select:hover::after{
     background:white;
-    color:#d88771;
+    color:#152238;
 
 }
