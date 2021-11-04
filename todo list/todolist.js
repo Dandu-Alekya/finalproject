@@ -3,6 +3,7 @@ const todoButton = document.querySelector('.todo-button');
 const todoList = document.querySelector('.todo-list');
 const filterOption = document.querySelector(".filter-todo");
 
+document.addEventListener('DOMContentLoaded',getTodo);
 todoButton.addEventListener('click',addTodo);
 todoList.addEventListener('click',checkordeletetask);
 filterOption.addEventListener('click',filterTodo);
@@ -76,14 +77,50 @@ function filterTodo(e){
         }
     });
 }
-
-function saveLocalTodos(todo){
-    //check for existing todo list
-    let todos;
+//function to check for existing todo list
+function checklocal(todos){
     if(localStorage.getItem("todos") ===  null)
         todos=[];
     else
         todos= JSON.parse(localStorage.getItem("todos"));
+    
+    return todos
+}
+
+function saveLocalTodos(todo){
+    let todos;
+    //check for existing todo list
+    todos=checklocal(todos);
     todos.push(todo);
     localStorage.setItem("todos",JSON.stringify(todos));
+}
+
+function getTodo(){
+    let todos;
+    todos=checklocal(todos);
+    todos.forEach(function(todo){
+        const todoDiv = document.createElement("div");
+        todoDiv.classList.add("todo");
+        const newtodo = document.createElement("li");
+        newtodo.innerText=todo;
+        newtodo.classList.add("todo-item");
+        todoDiv.appendChild(newtodo);
+        //completed task button
+        const completedtask = document.createElement('button');
+        completedtask.innerHTML='<i class="fas fa-check"></i>';
+        completedtask.classList.add("complete-btn");
+        todoDiv.appendChild(completedtask);
+        //Delete task button
+        const deletetask = document.createElement('button');
+        deletetask.innerHTML='<i class="fas fa-trash"></i>';
+        deletetask.classList.add("trash-btn");
+        todoDiv.appendChild(deletetask);
+        //append the new todo item to Div
+        todoList.appendChild(todoDiv);
+    });
+}
+
+function removeLocalTodos(todo){
+    let todos;
+    todos=checklocal(todos);
 }
