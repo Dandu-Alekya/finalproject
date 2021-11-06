@@ -9,7 +9,7 @@ body{
     background-image: url(https://cdn.pixabay.com/photo/2020/05/08/10/54/mountain-5145156_1280.jpg);
     background-size:auto;
     color:#152238;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Balsamiq Sans', cursive; /*'Nunito', sans-serif;*/
     min-height: 100vh;
 }
 
