@@ -1,27 +1,104 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OneStop</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <title>Onestop</title>
     <link rel="stylesheet" href="style.css">
-    <script src="onestop.js" defer>
-    </script>
-</head>
-<body>
-    <header class="header">
-        <nav class="flex-jc-sb">
-            <a href="/"><img src="" alt="logo"/></a>
-            <a href="#"class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </a>
-        </nav>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <script src="script.js" charset="utf-8" defer></script>
+  </head>
+  <body>
+
+    <div class="scrollToTop-btn">
+      <i class="fas fa-angle-up"></i>
+    </div>
+
+    <header>
+      <a href="#" class="brand">OneStop</a>
+      <div class="menu-btn"></div>
+      <div class="navigation">
+        <a href="#main">Home</a>
+        <a href="#about">About</a>
+        <a href="#features">Features</a>
+      </div>
     </header>
-</body>
+
+    <section class="main" id="main">
+      <div class="content">
+        <h2>Welcome to<br><span>OneStop</span></h2>
+        <h4>Destination For Your Mental And Physical Wellbeing.</h4>
+        <a href="#" class="btn">To New Beginnings</a>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="title reveal">
+        <h2 class="section-title">Our Aim</h2>
+      </div>
+      <div class="content">
+        <div class="column col-right reveal">
+          <p class="paragraph-text">
+            We focus on
+            <div class="animated-text">
+              <h3>Mental Health</h3>
+              <h3>Physical Health</h3>
+              <h3>Organization</h3>
+            </div>
+          </p>
+        </div>
+        
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <div class="title reveal">
+        <h2 class="section-title">Our Features</h2>
+        <p>These are the features in each key area we focus on!</p>
+      </div>
+      <div class="content">
+        <div class="card reveal">
+          <div class="service-icon">
+            <i class="fas fa-brain"></i>
+          </div>
+          <div class="info">
+            <h3>Mental Health</h3>
+            <p>"Recovery is not one and done. It is a lifelong journey that takes place one day, one step at a time."<br> 
+              We hope that our<h4><a>Journal Promts</a></h4>will help you reflect on yourself along with gain deeper understanding of your Wellbeing.</p>
+          </div>
+        </div>
+        <div class="card reveal">
+          <div class="service-icon">
+            <i class="fas fa-dumbbell"></i>
+          </div>
+          <div class="info">
+            <h3>Physical Health</h3>
+            <p>"Exercise is the key not only to physical health but to peace of mind."<br>
+            We hope our<h4><a> Workout Tracker</a></h4>and <h4><a>Calorie Calculator</a></h4>encorage you to workout as well as eat healthy, well balanaced meals</p>
+          </div>
+        </div>
+        <div class="card reveal">
+          <div class="service-icon">
+            <i class="fas fa-list-alt"></i>
+          </div>
+          <div class="info">
+            <h3>Organization</h3>
+            <p>“For every minute spent organizing, an hour is earned.”<br>
+            We believe that our <h4><a>To-List</a></h4> and <h4><a>Timer</a></h4>can help you be productive and focus throughout all your tasks for the day!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="media-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+      <span class="footer-title">Desgined by <br> <p><a href="">Alekya Dandu</a></p></span>
+      <p>Copyright @2021 All Rights Reserved.</p>
+    </footer>
+  </body>
 </html>
