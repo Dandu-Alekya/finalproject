@@ -1,15 +1,17 @@
 # finalproject
 This is a self-help website that i built as part of my final year project
+## Demo
+https://dandu-alekya.github.io/finalproject/
 
-Features i want to include:
-1. todo list 
-2. timer app 
-3. games
-4. gratitude section 
-5. workout section
-6. study section
+## Features i want to include:
+1. Mental Health 
+   * Jounral Promts
+2. Physical Health   
+   * Workout Tracker
+   * Calorie Calculator
+3. Organization
+   * Timer
+   * To-do List
 
 ### Image creidts: 
-1. Todo List 
-    * background: https://pixabay.com/illustrations/mountain-sun-rise-nature-morning-5145156/
-    * Tab Icon: <div>Icons made by <a href="https://www.flaticon.com/authors/monkik" title="monkik">monkik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+1. Main Background: Made in Canva by me!
