@@ -8,8 +8,9 @@
 body{
     /*background-image:linear-gradient(120deg,#e2c35d,#d88771);*/
     /*background-image: url(https://cdn.pixabay.com/photo/2020/05/08/10/54/mountain-5145156_1280.jpg);*/
+    background-image: url(./3834178.png);
     background-size:auto;
-    color:#152238;
+    color:#3f3025;
     font-family: 'Poppins', sans-serif;
     min-height: 100vh;
 }
@@ -17,7 +18,7 @@ body{
     margin: 120px auto;
     max-width: 700px;
     width: 100%;
-    background-color: #b49e83;
+    background-color:#cfae90;
     padding: 25px;
     border-radius: 5px;
 }
@@ -41,14 +42,14 @@ form input,form button{
 }
 
 form button{
-    color:#152238;
+    color:#3f3025;
     background: white;
     cursor:pointer;
     transition: all 0.3s ease;
 }
 
 form button:hover{
-    background: #152238;
+    background: #3f3025;
     color: white;
 }
 
@@ -80,7 +81,7 @@ form button:hover{
 }
 
 .complete-btn,.trash-btn{
-    background-color: #152238;
+    background-color: #3f3025;
     color:white;
     border: none;
     padding: 1rem;
@@ -88,15 +89,15 @@ form button:hover{
     font-size: 1rem;
 }
 .complete-btn{
-    background-color: #3e63a5;
+    background-color:#725641;
 }
 
 .trash-btn:hover{
-    color: #152238;
+    color: #3f3025;
     background:  white;
 }
 .complete-btn:hover{
-    color: #3e63a5;
+    color: #725641;
     background: white;
 }
 
@@ -130,7 +131,7 @@ select{
 }
 
 select{
-    color: #152238;
+    color: #3f3025;
     width: 10rem;
     cursor: pointer;
     padding: 1rem;
@@ -139,7 +140,7 @@ select{
 .select::after{
     content:"\25BC";
     position: absolute;
-    background:#152238;
+    background:#3f3025;
     top:0;
     right:0;
     padding: 1rem;
@@ -149,6 +150,6 @@ select{
 
 .select:hover::after{
     background:white;
-    color:#152238;
+    color:#3f3025;
 
 }
