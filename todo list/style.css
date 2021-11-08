@@ -9,7 +9,8 @@ body{
     /*background-image:linear-gradient(120deg,#e2c35d,#d88771);*/
     /*background-image: url(https://cdn.pixabay.com/photo/2020/05/08/10/54/mountain-5145156_1280.jpg);*/
     background-image: url(./3834178.png);
-    background-size:auto;
+    background-size:100%;
+    background-repeat: no-repeat;
     color:#3f3025;
     font-family: 'Poppins', sans-serif;
     min-height: 100vh;
