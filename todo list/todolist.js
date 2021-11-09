@@ -8,6 +8,17 @@ todoButton.addEventListener('click',addTodo);
 todoList.addEventListener('click',checkordeletetask);
 filterOption.addEventListener('click',filterTodo);
 
+//todoInput.addEventListener('onkeyup',stoppedTyping);
+
+/*function stoppedTyping(){
+    if(this.value.length>0) { 
+        document.getElementById('addbutton').disabled = false; 
+    } 
+    else { 
+            document.getElementById('addbutton').disabled = true;
+        }
+}*/
+
 function addTodo(event){
     event.preventDefault();
     const todoDiv = document.createElement("div");
