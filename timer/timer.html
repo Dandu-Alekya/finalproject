@@ -11,9 +11,24 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!--Javascript file-->
-    <script src="timer.js" defer></script>
+    <script src="timer.js" defer type="module"></script>
 </head>
 <body>
+    <div class="timer">
+        <span class="timer-minutes">00</span>
+        <span class="timer-colon">:</span>
+        <span class="timer-seconds">00</span>
+        <button type="button" class="btn_play">
+            <i class="fas fa-play-circle"></i>
+        </button>
+        <button type="button" class="btn_clock">
+            <i class="fa-solid fa-clock"></i>
+        </button>
+        <!--<button type="button" class="btn">
+            <i class="fas fa-pause-circle"></i>
+        </button>-->
+    </div>
+
     
 </body>
 </html>
