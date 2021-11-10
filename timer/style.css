@@ -14,6 +14,67 @@ body{
   background:white;
 }
 
+.tasks button{
+  color:#3f3025;
+  background: white;
+  cursor:pointer;
+  transition: all 0.3s ease;
+}
+
+.tasks button:hover{
+  background: #3f3025;
+  color: white;
+}
+
+.tasklist{
+  min-width:30%;
+  list-style: none;
+}
+
+.task{
+  margin: 0.5rem;
+  background:white;
+  color:black;
+  font-size: 1rem;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.5s ease;
+}
+
+.task li{
+  flex:1;
+  text-align: center;
+}
+
+.complete-btn,.trash-btn{
+  background-color: #3f3025;
+  color:white;
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.trash-btn:hover{
+  color: #3f3025;
+  background:  white;
+}
+
+.task-item{
+  padding: 0rem 0.5rem;
+}
+
+.fa-trash,.fa-check{
+  pointer-events: none;   
+}
+
+.deletion{
+  transform: translateY(10rem);
+  opacity: 0;
+}
+
+
 .timer{
     font-family: 'Poppins', sans-serif;
     display: inline-block;
