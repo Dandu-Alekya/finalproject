@@ -1,0 +1,13 @@
+body{
+
+}
+
+.timer{
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    padding: 24px 34px;
+    border-radius: 30px;
+    background-color:#d6ae89;
+    font-size: 36px;
+    font-weight: bold;
+}
