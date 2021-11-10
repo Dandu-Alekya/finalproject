@@ -1,13 +1,33 @@
 body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
 .timer{
     font-family: 'Poppins', sans-serif;
     display: inline-block;
-    padding: 24px 34px;
+    padding: 30px 34px;
     border-radius: 30px;
     background-color:#d6ae89;
-    font-size: 36px;
+    font-size: 50px;
     font-weight: bold;
 }
+
+.timer button{
+    width: 50px;
+    height: 50px;
+    font-size: 1.7rem;
+    border-radius: 45%;
+    border: none;
+    color: #d6ae89;
+    background-color: #3f3025;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn_clock:hover,.btn_play:hover{
+    color: white;
+}
+
