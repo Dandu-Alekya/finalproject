@@ -15,3 +15,4 @@ https://dandu-alekya.github.io/finalproject/
 
 ### Image creidts: 
 1. Main Background: Made in Canva by me!
+2. Timer header icon: <div>Icons made by <a href="https://www.flaticon.com/authors/creativecons" title="CreativeCons">CreativeCons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
