@@ -1,11 +1,11 @@
 body{
-  margin: 100px;
+  margin: 70px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: #3f3025;
-  gap:40px;
+  gap:30px;
 
 }
 
@@ -18,7 +18,6 @@ body{
   color: #3f3025;
   font-size: 100px;
   font-weight: bold;
-  margin: 20px;
 }
 
 #controls {
@@ -41,5 +40,12 @@ body{
 #controls button:hover{
   color: #d6ae89;
   background-color: #3f3025;
+}
+
+.quote{
+  font-family: 'Cedarville Cursive', cursive;
+  color: #d6ae89;
+  font-size: 50px;
+  text-align: center;
 }
 
