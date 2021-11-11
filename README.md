@@ -10,8 +10,8 @@ https://dandu-alekya.github.io/finalproject/
    * Workout Tracker
    * Calorie Calculator
 3. Organization
-   * Timer
-   * To-do List
+   * Timer (completed)
+   * To-do List (completed)
 
 ### Image creidts: 
 1. Main Background: Made in Canva by me!
