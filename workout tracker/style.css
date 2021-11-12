@@ -21,7 +21,6 @@ body{
 .content{
     text-align: center;
     font-size: 1em;
-    color: #B39785;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -30,7 +29,7 @@ body{
   }
 
 .content .card{
-    background: #fff;
+    background-color:#644e3b;
     width: 180px;
     margin: 10px;
     padding: 25px;
@@ -39,10 +38,12 @@ body{
     flex-direction: column;
     box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
     border-radius: 10px;
+    color: #CDA851;
+    border: 2px solid #CDA851;
   }
   
 .content .card .service-icon{
-    color: #706257;
+    color: #e2be69;
     font-size: 3em;
     text-align: center;
     transition: transform 0.5s ease;
@@ -53,7 +54,7 @@ body{
 }
   
 .content .card h3{
-    color: #706257;
+    color: #CDA851;
     font-size: 0.8em;
     font-weight: 700;
     margin: 10px;
@@ -66,11 +67,12 @@ body{
     border: none;
     border-radius: 10%;
 }
+
 form input{
     padding:0.5rem;
     font-size: 1rem;
     border: none;
-    background:white;
+    background:#fdf5e9;
 }
 
 form{
@@ -85,9 +87,10 @@ form{
 form button{
     width:100px;
     height: 30px;
-    font-size: 12px;
-    background-color: #fff;;
-    color:#4b3728;
+    font-size: 10px;
+    font-weight: 1000;
+    background-color:#96775B;
+    color:#e2be69;
     border: none;
     border-radius: 2px;
 }
