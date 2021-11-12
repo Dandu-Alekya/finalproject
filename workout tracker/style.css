@@ -16,6 +16,7 @@ body{
     /*linear-gradient(-135deg,#4b3728,#b39178);*/
     background-size:cover;
     background-repeat: no-repeat;
+    gap:20px;
 }
 h1,h3{
     color: #CDA851;
@@ -70,15 +71,15 @@ h1,h3{
 }
 .walk
 {
-    visibility: hidden;
+    display: none;
 }
 .sport{
-    visibility: hidden;
+    display: none;
 }
 
 .strength-cardio
 {
-    visibility: hidden;
+    display: none;
 }
 
 form input{
@@ -89,7 +90,7 @@ form input{
 }
 
 form{
-    min-height: 20vh;
+    min-height: 30vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
