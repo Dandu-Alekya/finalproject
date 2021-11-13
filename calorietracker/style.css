@@ -16,10 +16,10 @@ body{
     background-repeat: no-repeat;
     font-family: 'Poppins', sans-serif;
 }
- h1{
-     padding: 20px;
+h1{
+     padding: 15px;
      color: #ca835c;
- }
+}
 .container{
     display: flex;
     flex-direction: column;
@@ -37,13 +37,7 @@ body{
     border-radius: 5px;
 }
 
-header{
-    font-size: 2.5rem;
-    font-weight: 600;
-}
-
 form{
-    min-height: 20vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,7 +54,7 @@ form input{
     background:white;
 }
 
-button{
+form button{
     padding:0.5rem;
     border: none;
     font-size: 1rem;
@@ -71,10 +65,15 @@ button{
     border-radius: 5px;
 }
 
+form button:hover{
+    background-color: #ca835c;
+    color: #4B372C;
+}
+
 .col{
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
 }
 .row{
     display: flex;
@@ -82,7 +81,7 @@ button{
     gap:10px;
 }
 
-a{
+.clear-btn{
     text-decoration: none;
     background-color: #ca835c;
     color: #4B372C;
@@ -93,4 +92,32 @@ a{
     font-weight: 500;
     border: none;
     border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.center-align{
+    color: #ca835c;
+    font-size: 40px;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    background-color: #925D40;
+    color: beige;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    gap:30px;
+
+}
+
+.fa-pencil{
+    color:beige;
+    font-size: 0.8rem;
 }
