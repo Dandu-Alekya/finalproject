@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:50px;
+    background-image: url(caloriebg.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+}
+ h1{
+     padding: 20px;
+     color: #ca835c;
+ }
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.card{
+    text-align: center;
+    background-color: #925D40;
+    color: #241a15;
+    padding: 50px;
+    border: none;
+    border-radius: 5px;
+}
+
+header{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+form{
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-title{
+    font-size: 1.5rem;
+}
+
+form input{
+    padding:0.5rem;
+    font-size: 1rem;
+    border: none;
+    background:white;
+}
+
+button{
+    padding:0.5rem;
+    border: none;
+    font-size: 1rem;
+    color:#ca835c;
+    background-color:#4B372C;
+    cursor:pointer;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+}
+
+a{
+    text-decoration: none;
+    background-color: #ca835c;
+    color: #4B372C;
+    padding: 5px;
+    height: 30px;
+    width: 80px;
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+}
