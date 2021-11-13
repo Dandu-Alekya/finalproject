@@ -7,7 +7,8 @@ https://dandu-alekya.github.io/finalproject/
 1. Mental Health 
    * Jounral Promts
 2. Physical Health   
-   * Workout Tracker
+   * Workout Tracker (completed)
+   * Calorie Tracker (completed)
    * Calorie Calculator
 3. Organization
    * Timer (completed)
