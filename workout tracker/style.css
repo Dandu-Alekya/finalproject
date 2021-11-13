@@ -61,44 +61,28 @@ h1,h3{
     font-weight: 700;
     margin: 10px;
 }
-.walk, 
-.strength-cardio,
-.sport{
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
     background-color:#4b3728;
     padding: 20px;
     border: none;
     border-radius: 10%;
 }
-.walk
-{
+.outerform{
     display: none;
 }
-.sport{
-    display: none;
-}
-
-.strength-cardio
-{
-    display: none;
-}
-
-form input{
+.form input{
     padding:0.5rem;
     font-size: 1rem;
     border: none;
     background:#fdf5e9;
 }
 
-form{
-    min-height: 30vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap:10px;
-}
-
-form button{
+.form button{
     width:100px;
     height: 30px;
     font-size: 10px;
@@ -120,4 +104,13 @@ form button{
     border-radius: 10px;
     color: #CDA851;
     border: 2px solid #CDA851;
+}
+
+p{
+    color: #e2be69;
+    background-color: #644e3b;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #96775B;
 }
