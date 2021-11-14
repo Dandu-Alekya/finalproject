@@ -1,0 +1,220 @@
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 1;
+  background-image: url(https://wallpapercave.com/wp/wp9211979.png);
+  background-size: 100%;
+  background-repeat:repeat;
+  /*background-image: linear-gradient(180deg,#928072,#cac0b4);*/
+  color:#503b2a;
+}
+
+/* Global Typography */
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+form,
+textarea {
+  font-size: 1rem;
+}
+
+button {
+  display: block;
+  font-size: 1.2rem;
+  padding: 0.5em 1em;
+  border: none;
+  font-family: 'Gochi Hand', cursive;
+}
+
+header {
+  font-family: 'Gochi Hand', cursive;
+  text-align: center;
+  margin: 1em auto;
+}
+
+.section {
+  width: 100%;
+  margin: 1em auto;
+  font-family: 'Gochi Hand', cursive;
+}
+
+.container {
+  width: 100%;
+}
+
+.container-row {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.btn-main{
+  display: block;
+  padding: 0.6rem 2rem;
+  margin: 1rem;
+  transition: all 0.1s;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  color: #E2D7CA;
+  background-color: #706257;
+}
+
+button[class^='btn-']:hover,
+a[class^='btn-']:hover,
+input[class^='btn-']:hover {
+  background-color: #E2D7CA;
+  color: #706257;
+  font-weight: 700;
+  transform: scale(1.08);
+}
+
+
+.entry-text-title {
+  width: 20em;
+  margin: 1em auto;
+  padding: 1em;
+  border-radius: 2px;
+  border: unset;
+  background-color: #E2D7CA;
+  font-family: 'Gochi Hand', cursive;
+}
+
+.entry-text-title:focus {
+  outline-color: #706257;
+  font-family: 'Gochi Hand', cursive;
+  color: #706257;
+  font-size: 1rem;
+}
+
+.entry-text-title::placeholder {
+  color: #BD8B65;
+  font-family: 'Gochi Hand', cursive;
+  font-size: 1rem;
+}
+
+.entry-text-title::-ms-value {
+  color: #706257;
+  font-family: 'Gochi Hand', cursive;
+  font-size: 1rem;
+}
+
+/* Text Box */
+
+.container-row-journal {
+  display: flex;
+  justify-content: center;
+}
+
+.entry-form {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.journal-label {
+  display: block;
+  line-height: 1.6;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.entry-text-box {
+  width: 100%;
+  height: 3.5em;
+  margin: 0.5em auto;
+  padding: 1em;
+  border-radius: 2px;
+  border: unset;
+  background-color: #E2D7CA;
+  font-family: 'Gochi Hand', cursive;
+}
+/*
+@media (min-width: 769px) {
+  .entry-text-box {
+    width: 50em;
+    height: 4em;
+    margin: 1em auto;
+    padding: 1em;
+    border-radius: 2px;
+    border: unset;
+    background-color: #E2D7CA;
+    font-family: 'Gochi Hand', cursive;
+  }
+}
+*/
+
+.entry-text-box:focus {
+  outline-color: #706257;
+  font-family: 'Gochi Hand', cursive;
+  color: #706257;
+  font-size: 1rem;
+}
+
+.entry-text-box::placeholder {
+  color: #BD8B65;
+  font-family: 'Gochi Hand', cursive;
+  font-size: 1rem;
+}
+
+.entry-submit-btn {
+  margin: 0;
+}
+
+/* Journal Results Section */
+
+.sectionEntryResults {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.entryResultRow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.single-entry-div {
+  max-width: 100%;
+  margin: 1em auto;
+  padding: 1em 1em;
+}
+
+.single-entry-date {
+  background-color: #E2D7CA;
+  width: 100%;
+}
+
+.heading-results {
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: #E2D7CA;
+}

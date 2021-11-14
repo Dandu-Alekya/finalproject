@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Journal</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.1/css/all.css"
+      integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Gochi+Hand&family=Public+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <script src="jounral.js" defer></script>
+  </head>
+  <body>
+    <header><h1 class="title">MY JOURNAL</h1></header>
+    <section class="section journal-section">
+      <div class="container">
+        <div class="container-row container-row-journal">
+          <div class="container-item container-item-journal">
+            <form id="entryForm" action="">
+              <label for="entry-title" class="journal-label">Entry Title</label>
+              <input type="text" name="entry-title" id="entry-title" class="entry-text-title"
+                placeholder="One word to describe today"/>
+              <label for="entry" class="journal-label">Today's Entry</label>
+              <textarea name="daily-entry" id="entry" class="entry-text-box" 
+              placeholder="How do you feel today?"
+              ></textarea>
+              <textarea name="daily-entry" id="entry" class="entry-text-box" 
+              placeholder="What's on your mind right now?"
+              ></textarea>
+              <textarea name="daily-entry" id="entry" class="entry-text-box" 
+              placeholder="What are you grateful for today?"
+              ></textarea>
+              <textarea name="daily-entry" id="entry" class="entry-text-box" 
+              placeholder="what are/were you excited about today?"
+              ></textarea>
+              <textarea name="daily-entry" id="entry" class="entry-text-box" 
+              placeholder="What is stressing you out today? and how can you deal with it?"
+              ></textarea>
+              <textarea name="daily-entry" id="entry" class="entry-text-box" 
+              placeholder="What are you most proud of?"
+              ></textarea>
+              <textarea name="daily-entry" id="entry" class="entry-text-box" 
+              placeholder="Who inspired you today?"
+              ></textarea>
+              <textarea name="daily-entry" id="entry" class="entry-text-box" 
+              placeholder="Did anything upset you today? and how did/can you deal with it?"
+              ></textarea>
+              <textarea name="daily-entry" id="entry" class="entry-text-box" 
+              placeholder="Your favourite thing about today and yourself!"
+              ></textarea>
+              <button class="btn-main entry-submit-btn" type="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Journal Entry Results -->
+    <section class="section sectionEntryResults" id="entryResultsSection">
+      <div class="container">
+        <div class="container-row entryResultRow"></div>
+      </div>
+    </section>
+  </body>
+</html>
