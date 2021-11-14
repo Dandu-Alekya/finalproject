@@ -76,6 +76,7 @@ h1,h3{
     display: none;
 }
 .form input{
+    width:250px;
     padding:0.5rem;
     font-size: 1rem;
     border: none;
