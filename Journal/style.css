@@ -79,7 +79,7 @@ header {
 .btn-main{
   display: block;
   padding: 0.6rem 2rem;
-  margin: 1rem;
+  margin: 0;
   transition: all 0.1s;
   border: none;
   border-radius: 2px;
@@ -146,7 +146,15 @@ input[class^='btn-']:hover {
   font-weight: 700;
 }
 
-.entry-text-box {
+.entry-text-box1,
+.entry-text-box2,
+.entry-text-box3,
+.entry-text-box4,
+.entry-text-box5,
+.entry-text-box6,
+.entry-text-box7,
+.entry-text-box8,
+.entry-text-box9 {
   width: 100%;
   height: 3.5em;
   margin: 0.5em auto;
@@ -171,21 +179,34 @@ input[class^='btn-']:hover {
 }
 */
 
-.entry-text-box:focus {
+.entry-text-box1:focus,
+.entry-text-box2:focus,
+.entry-text-box3:focus,
+.entry-text-box4:focus,
+.entry-text-box5:focus,
+.entry-text-box6:focus, 
+.entry-text-box7:focus,
+.entry-text-box8:focus,
+.entry-text-box9:focus{
+
   outline-color: #706257;
   font-family: 'Gochi Hand', cursive;
   color: #706257;
   font-size: 1rem;
 }
 
-.entry-text-box::placeholder {
+.entry-text-box1::placeholder,
+.entry-text-box2::placeholder,
+.entry-text-box3::placeholder,
+.entry-text-box4::placeholder,
+.entry-text-box5::placeholder,
+.entry-text-box6::placeholder,
+.entry-text-box7::placeholder,
+.entry-text-box8::placeholder,
+.entry-text-box9::placeholder {
   color: #BD8B65;
   font-family: 'Gochi Hand', cursive;
   font-size: 1rem;
-}
-
-.entry-submit-btn {
-  margin: 0;
 }
 
 /* Journal Results Section */
@@ -208,13 +229,28 @@ input[class^='btn-']:hover {
   padding: 1em 1em;
 }
 
+.single-entry-heading{
+  color:#706257;
+  margin-left: 10px;
+}
+
 .single-entry-date {
-  background-color: #E2D7CA;
+  color:#706257;
   width: 100%;
+  margin-top: 1rem;
+  margin-left: 10px;
 }
 
 .heading-results {
   text-align: center;
-  text-decoration: underline;
   text-decoration-color: #E2D7CA;
+}
+
+.single-entry-text{
+  background-color: #E2D7CA;
+  padding: 1rem;
+  line-height: 1.6;
+  color: #BD8B65;
+  border: none;
+  border-radius: 5px;
 }
