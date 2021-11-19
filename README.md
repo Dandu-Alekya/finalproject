@@ -8,12 +8,12 @@ https://dandu-alekya.github.io/finalproject/
 
 ## Features of the application:
 
-> Landing Page - This is the main page of the application and what the user will see as soon as the link is opened. The page helps in users understanding the aim behind designing this project and gain access to the features. The landing page is divided into 3 major parts:
+*Landing Page* - This is the main page of the application and what the user will see as soon as the link is opened. The page helps in users understanding the aim behind designing this project and gain access to the features. The landing page is divided into 3 major parts:
 * The navigation bar- This contains the logo as well as the links for easy navigation throughout the webpage. This navbar is a sticky navigation bar, which means that the navbar will stick to the top when you reach its scroll position, allowing users to always have access to the navbar on the webpage.
-* The body- The main body can be further divided into:
-  o Title Area: This section contains the welcome message to the OneStop application and a button for easy access to the features directly.
-  o Aim Area: This section introduces the aim behind building this application to the users and allows the users to understand the project’s mission and ideology.
-  o Features Area: This section contains 3 cards, in which each card represents the main topics the application focuses on and contains the features under that category. The     features can be accessed through the feature links present under each card.
+* The body- The main body can be further divided into:<br>
+  o  Title Area: This section contains the welcome message to the OneStop application and a button for easy access to the features directly. <br>
+  o  Aim Area: This section introduces the aim behind building this application to the users and allows the users to understand the project’s mission and ideology. <br>
+  o  Features Area: This section contains 3 cards, in which each card represents the main topics the application focuses on and contains the features under that category. The     features can be accessed through the feature links present under each card.<br>
 * The footer- This section contains information about the developer and the copyright claims. All links to my socials (LinkedIn, GitHub and Instagram have been attached in the footer). There is also a back to top button.
 
 1. Mental Health 
