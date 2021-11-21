@@ -16,11 +16,9 @@ https://dandu-alekya.github.io/finalproject/
   o  Features Area: This section contains 3 cards, in which each card represents the main topics the application focuses on and contains the features under that category. The     features can be accessed through the feature links present under each card.<br>
 * The footer- This section contains information about the developer and the copyright claims. All links to my socials (LinkedIn, GitHub and Instagram have been attached in the footer). There is also a back to top button.
 
-1. Mental Health <br>
-   *Jounral Promts* - This feature comes under the category of mental health; the main aim of this feature is to help users process their emotions and feeling through the habit of journaling. Journaling helps in Managing anxiety, reducing stress, and coping with depression. It improves one’s mood by: Helping one to prioritize their problems, fears, and concerns, tracking any symptoms day-to-day so that one can recognize triggers and learn ways to better control them and providing an opportunity for positive self-talk and identifying negative thoughts and behaviors. The main elements of this feature are as follows:
-  * The Self-Help Prompts: The user is greeted with a title box, which allows the user to describe their day and 9 questions that help one to understand and process their emotions in a healthy manner. The user can input their answer to the question in the respective text area.
-  *  The Submit Button: The Button helps in submitting the answers give by the user to the respective questions, this triggers the JavaScript file to dynamically display their journal entry.
-  * Journal Entries: As soon as the button is pressed, the answers inputted by the user is dynamically displayed in the browser along with the journal title and the date on which the user has submitted the entry.
+1. Mental Health
+   * Jounral Promts
+   * Mood Tracker
 
 2. Physical Health   
    * Workout Tracker
